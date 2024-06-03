@@ -1,20 +1,47 @@
-# Angular Homes App
-- Install Angular if you don't have it installed
+1) Install Node.js
 
-  `npm install -g @angular/cli`
 
-- Clone this branch to your local machine
+2) Install Angular CLI
+```bash
+	ng install -g @angular/cli (installs the latest version)
+	ng version
+```
 
-  `git clone -b homes-app-start git@github.com:angular/codelabs.git homes-app`
+3a) Download the source code to folder and enter project directory
+```bash
+	npm install (install all dependencies in the project)
+```
 
-- Once the code has been downloaded
+3b) create new project
+```bash
+	ng new <projectName>
+```
 
-  `cd homes-app`
+4) Run the app locally
+```bash
+	ng serve
+```
 
-- Install the depencies
+5) Create components
+```bash
+	ng generate component Home --standalone --inline-template
+  ng g c Home --standalone --inline-template
+```
 
-  `npm install` 
+6) Create interfaces
+```bash
+	ng generate interface housingLocation
+  ng g i housingLocation
+```
 
-- Run the application 
+7) Create services
+```bash
+	ng generate service housing
+  ng g s housing
+```
 
-  `ng serve`
+8) Install json-server
+``` bash
+	npm install -g json-server
+  json-server --watch db.json
+```
