@@ -1,18 +1,19 @@
 1) Install Node.js
 
-
 2) Install Angular CLI
 ```bash
-	ng install -g @angular/cli (installs the latest version)
-	ng version
+ng install -g @angular/cli (installs the latest version)
+ng version
 ```
 
-3a) Download the source code to folder and enter project directory
+3) Download the source code to folder and enter project directory
 ```bash
-	npm install (install all dependencies in the project)
+npm install (install all dependencies in the project)
 ```
 
-3b) create new project
+OR
+
+Create new project
 ```bash
 ng new <projectName>
 ```
