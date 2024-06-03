@@ -6,15 +6,15 @@ ng install -g @angular/cli (installs the latest version)
 ng version
 ```
 
-3) Download the source code to folder and enter project directory
+3) Open a project
+
 ```bash
+Download the source code to folder and enter project directory
 npm install (install all dependencies in the project)
-```
 
 OR
 
 Create new project
-```bash
 ng new <projectName>
 ```
 
