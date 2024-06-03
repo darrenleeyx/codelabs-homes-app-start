@@ -26,13 +26,13 @@ ng serve
 5) Create components
 ```bash
 ng generate component Home --standalone --inline-template
- ng g c Home --standalone --inline-template
+ng g c Home --standalone --inline-template
 ```
 
 6) Create interfaces
 ```bash
 ng generate interface housingLocation
- ng g i housingLocation
+ng g i housingLocation
 ```
 
 7) Create services
