@@ -14,34 +14,34 @@
 
 3b) create new project
 ```bash
-	ng new <projectName>
+ng new <projectName>
 ```
 
 4) Run the app locally
 ```bash
-	ng serve
+ng serve
 ```
 
 5) Create components
 ```bash
-	ng generate component Home --standalone --inline-template
-  ng g c Home --standalone --inline-template
+ng generate component Home --standalone --inline-template
+ ng g c Home --standalone --inline-template
 ```
 
 6) Create interfaces
 ```bash
-	ng generate interface housingLocation
-  ng g i housingLocation
+ng generate interface housingLocation
+ ng g i housingLocation
 ```
 
 7) Create services
 ```bash
-	ng generate service housing
-  ng g s housing
+ng generate service housing
+ng g s housing
 ```
 
 8) Install json-server
 ``` bash
-	npm install -g json-server
-  json-server --watch db.json
+npm install -g json-server
+json-server --watch db.json
 ```
